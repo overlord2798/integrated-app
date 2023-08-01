@@ -1,0 +1,26 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .left-label {
+    font-weight: bold;
+  }
+  
+  .top-label-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .text-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+  }

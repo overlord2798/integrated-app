@@ -1,0 +1,52 @@
+body {
+  margin: 100;
+  padding: 100;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: right-center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #CC6D29, #CC8552 48%, #CCB4A3);
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.sidebar.show {
+  transform: translateX(0);
+}
+
+.content {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.burger-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+} 
